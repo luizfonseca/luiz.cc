@@ -1,0 +1,19 @@
+h1 { 
+  font-family: 'Titillium Web';
+  font-weight: 600;
+  font-size: 3.5em
+}
+
+h2, h3, h4{ 
+  font-family: 'Titillium Web';
+  font-weight: 300
+
+}
+a { text-decoration: underline; color: blue }
+.myself         { margin-top: 2em }
+.circle-radius  { border-radius: 150px }
+.bordered-white { border: 2px solid lightgrey; }
+.shadow-boxed   { box-shadow: 0 0 .4em lightgray; }
+.center-text    { text-align: center; }
+
+

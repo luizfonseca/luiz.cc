@@ -1,7 +1,7 @@
 # Django settings for luizcc project.
 import os 
 
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', ''))
+DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (

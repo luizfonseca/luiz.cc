@@ -3,8 +3,10 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:300,600,200' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{% static "css/normalize.css" %}" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="{% static "css/foundation.min.css" %}" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/foundation.css" %}" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="{% static "css/site.css" %}" type="text/css" media="screen" charset="utf-8">
     
     <title>About me: Luiz Fonseca.</title>
     
@@ -13,8 +15,12 @@
   <body>
     <div id="container">
       <div class="row header">
-        <div class="large-8 large-centered columns">
-          <h1>Hi, I'm Luiz Fonseca :)</h1>
+        <div class="large-16 large-centered columns center-text">
+          <div class="large-4 large-centered columns">
+            <img src="{% static "img/me.jpg" %}" class="myself circle-radius bordered-white shadow-boxed" alt="Me :)" title="Yeah, it's me"/>
+          </div>
+          <h1>Hi! I'm Luiz Fonseca.</h1>
+          <h4>I'm a <a href="http://github.com/luizfonseca">Software Developer</a>, <a href="http://500px.com/luizfonseca">Photographer</a>, <a href="http://soundcloud.com/runeroniek">Drummer/Guitar player</a> and a <a href="http://www.gargantadaserpente.com/coral/contos/lcf_setemeia.shtml">Wannabe writer</a>.</h4>
         </div>
       </div>
 
