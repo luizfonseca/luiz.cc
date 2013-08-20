@@ -18,5 +18,7 @@ a { text-decoration: underline; color: blue }
 .bordered-white { border: 2px solid lightgrey; }
 .shadow-boxed   { box-shadow: 0 0 .4em lightgray; }
 .center-text    { text-align: center; }
-
+.spacer         { height: 10%; margin: 2% auto; }
+.references dd  { border-bottom: 1px dotted lightgray; padding: 1% 0 4% 0; }
+.references dd:last-child { border-bottom: none }
 
